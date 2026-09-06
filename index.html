@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mis prácticas de Desarrollo Web: proyectos para explorar, construir y aprender en la web.">
+    <meta name="theme-color" content="#f6f8fc">
+    <title>Prácticas de Desarrollo Web</title>
+    <link rel="stylesheet" href="styles-home.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#practicas">Saltar a las prácticas</a>
+
+    <header class="site-header container">
+      <a class="brand" href="./" aria-label="Desarrollo Web — Inicio">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Desarrollo Web<span class="brand-caption">Mi espacio de prácticas</span></span>
+      </a>
+      <span class="header-note">Aprender. Crear. Mejorar.</span>
+    </header>
+
+    <main class="container">
+      <section class="intro" aria-labelledby="home-title">
+        <p class="eyebrow"><span aria-hidden="true"></span>Del código a la práctica</p>
+        <h1 id="home-title">Prácticas de<br><span>Desarrollo Web.</span></h1>
+        <p class="intro-description">Un espacio para reunir lo que voy construyendo.<br class="desktop-break"> Explora mis proyectos, una práctica a la vez.</p>
+      </section>
+
+      <section class="practices" id="practicas" aria-labelledby="practices-title">
+        <div class="section-heading">
+          <h2 id="practices-title">Mis prácticas</h2>
+          <span class="section-note">Hechas para aprender</span>
+        </div>
+
+        <div class="practice-grid">
+          <!-- Para agregar otra práctica, duplica este article y actualiza
+               el número, título, descripción, etiquetas y href (ej. practica02/).
+               Usa un id y un aria-labelledby únicos para cada tarjeta. -->
+          <article class="practice-card" aria-labelledby="practice-01-title">
+            <div class="card-topline">
+              <span class="practice-number">Práctica 1</span>
+              <span class="code-symbol" aria-hidden="true">&lt;/&gt;</span>
+            </div>
+            <h3 id="practice-01-title">LearnCode<span>Web SPA Responsive</span></h3>
+            <p class="practice-description">SPA responsive de cursos con conversión dinámica de monedas usando una API.</p>
+            <ul class="tags" aria-label="Tecnologías utilizadas">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>API</li>
+            </ul>
+            <div class="card-footer">
+              <a class="practice-link" href="webSpaResponsive/">Ver práctica<span class="sr-only">: LearnCode / Web SPA Responsive</span><span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <span>Desarrollo Web</span>
+      <span>Un proyecto a la vez.</span>
+    </footer>
+  </body>
+</html>
