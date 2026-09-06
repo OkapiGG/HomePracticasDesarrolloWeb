@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="" alt="">
+            <h1 id="title">LearnCode</h1>
+            <search id="busqueda">
+                <form action="/buscar">
+                    <label for="caja-busqueda"></label>
+                    <input type="search" id="caja-busqueda" name="q" placeholder="Buscar Curso...">
+                    <button class="buttonSearch" type="submit">Buscar</button>
+                </form>
+            </search>
+            <div class="currency-selector">
+                <label for="valores">Moneda</label>
+                <select id="valores" aria-label="Elegir moneda" aria-busy="true">
+                    <option value="MXN">MXN</option>
+                    <option value="USD" disabled>USD</option>
+                    <option value="JPY" disabled>JPY</option>
+                </select>
+            </div>
+        </div>
+        <div class="TextosHeader">
+            <h4>Cursos Populares</h4>
+            <h4>Categorias</h4>
+            <h4>Precios</h4>
+            <h4>Iniciar Sesion</h4>
+        </div>
+    </header>
+
+    <main class="contentMain">
+            <div id="contentcards" class="columnaMain">
+
+                <div class="card">
+                    <p class="card-title">Masterclass</p>
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHrsGNWSSJzyhtrgSade4erDHSdZ-qvcqjH-K5oUN0T1wLjhMvowbTRkW7BqkLZZDsq0JLW4cQv4pwCRfrzNdi9q9GIF_0TxrfNx5Py8mdn4FA3OcqObF12hqiPUmmcPaKToAfQ5wHiN0S1P5_O_Iz1q3hIEvuCskR8OZPbc1VPkuHJnrJWSglMS_4elN2eNdtq4y5EtvPDcxIfICiG83hNpWaqfHPANjc3wVuT9qR63ZT3A96SpaiFw" alt="">
+                    <p class="card-subtitle">UX & Product Design</p>
+                    <p class="card-description">De wireframe a producto real</p>
+                    <div class="priceAndhrs">
+                        <p class="card-price" data-price="299.99">$299.99</p>
+                    <p class="card-hrs">38hrs</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Nuevo</p>
+                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-0BG2-oytSC-6_MXO5zoduNCja7MeHsyKwpIjwHGX4pB-pva7GWjssVvmdyjGmJfiEIrVC-yCnvf36dj0eBKvS25NjJQnop_UyWseOqyBLSu4KTQisSKIoNqBQXiEzAQQQ_v_RXXjh7GJpDGeUTBMAQcLL6FNgpzOHWdyI-c9wQS3RCU8KY6arQnupyeFkikQoAxNijZE3uTKBRNVZmd5IPkefSWm2e0kMMZY9Wi2I22sU8yrXJL1lg" alt="">
+                    <p class="card-subtitle">Fullstack Web + IA</p>
+                    <p class="card-description">Despliegues en produccion</p>
+                    <div class="priceAndhrs">
+                        <p class="card-price" data-price="259.99">$259.99</p>
+                        <p class="card-hrs">45hrs</p>   
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="columnaMain">
+                <p class="colum-title">Impulsa tu Carrera en cada sesion</p>
+                <p class="colum-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, laudantium? Fugiat mollitia debitis possimus illo, nemo nobis ut unde veritatis voluptas quidem cumque quae, illum facere quam exercitationem, saepe quisquam.</p>
+                <div class="colum-div">
+                    <div>
+                        <p class="colum-porcent">100%</p>
+                        <p>Practico y Actulizado</p>
+                    </div>
+                    
+                    <div>
+                        <p class="colum-porcent">+250</p>
+                        <p>Cursos Certificados</p>
+                    </div>
+                    
+                </div>
+                <button>Explorar Cursos</button>
+            </div>
+    </main>
+
+    <aside>
+        <p class="aside-title">Descubre Nuestras Rutas y Cursos</p>
+        <div class="aside-content">
+            <div class="aside-card">
+                <p class="aside-tag">Mejor Vendido</p>
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoc4RFrjkcaNU711CjPfJYTcq-JhknSZw8dD4R1pNwdQN4BygL6ocRqrbxQbCwwPwzPJHiXFVYy8VlCg-SPvOn1PcO5Zw1AqzIjdYU9XINGW9LerTTnct1eSURqryqTc1B5ksgTqvNur6yBQQy5FnjBbet2CmZGLX94PgENAOvHn-7Dz9mWT7pHEBH_XvrV0CFVDquoHCU2OmO_h-hzyR6BIC7KL3IDinWUYtbIFqu26scgKErKHQNnw" alt="">
+                <div>
+                    <p class="aside-hrs">38 Horas ~ 14 Modulos</p>
+                    <p class="aside-cal">4.9(420)</p>
+                </div>
+                
+                <p class="aside-titlep">Master En Diseño de Interfaces y UX Moderno</p>
+                <p class="aside-subtitle">Aprende Figma avanzado sistemas de diseño colaborativos, research cualitativo y prototipado</p>
+                <div>
+                    <p class="aside-price" data-price="149.99">$149.99</p>
+                    <button class="aside-button">Añadir al Carrito</button>
+                </div>
+            </div>
+            <div class="aside-card">
+                <p class="aside-tag">Actualizado</p>
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuByjI1MK1jMzTuNlza80bQ-wxt18iFuI9CmR7hlHDs3fBI64FTR50eWqAScvq-H2NteC5elh5vIVsJIwFgOiaUEdGYrGkQGGgJvjL04bOI-XNAE52CaKLGn4d29JJABti0dTzWZe5NuIVL4SD6AeqQGCHGPZvYMwUfMljT6LVZDoVPKsuT7ojYBc-AYug4sRW0Hcvfi1K7IACmPX9FSQW0aB5jjasI8oBpK2g4JETFaLmdF79tFgkpNEg" alt="">
+                <div>
+                    <p class="aside-hrs">45 Horas ~ 18 Modulos</p>
+                    <p class="aside-cal">4.95(890)</p>
+                </div>
+                <p class="aside-titlep">Master En Diseño de Interfaces y UX Moderno</p>
+                <p class="aside-subtitle">Arquitectura Frontend SPA & React Avanzado</p>
+                <div>
+                    <p class="aside-price" data-price="159.99">$159.99</p>
+                    <button class="aside-button">Añadir al Carrito</button>
+                </div>
+            </div>
+            <div class="aside-card">
+                <p class="aside-tag">Más Popular</p>
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-KVxE1mtc45AGaLgqtZ_JLK3i6id_IRWVxxt8i4gIJ2EMsVPvnRwB0ZtnOA4nudy2N0MPuDBi-bk3J054qgfy7fTAraB2i_8_9tNviIEl1LgxYsAOYCSzLdxjppm1hS3NZgr4T1EyfTTCKQTn2jqa5Kib5PLK6PoRbmUjaqZf8cjnyqNmBy6oak417YHYEojHRws5UYI8aQj1L8ZQQ-KIIilWgOXFrlhh9FtwrZrSPFwj1t__rZqZKw" alt="">
+                <div>
+                    <p class="aside-hrs">30 Horas ~ 10 Modulos</p>
+                    <p class="aside-cal">4.88(610)</p>
+                </div>
+                <p class="aside-titlep">Ingeniería de Prompts y Machine Learning Practica</p>
+                <p class="aside-subtitle">Crea agentes inteligentes integra APIs de OPENAI y Anthropic en aplicaciones web comerciales</p>
+                <div>
+                    <p class="aside-price" data-price="164.50">$164.50</p>
+                    <button class="aside-button">Añadir al Carrito</button>
+                </div>
+            </div>
+            <div class="aside-card">
+                <p class="aside-tag">Especialización de la Semana</p>
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs863yueULgq_DKbKxwboGLhsGnyDgHvKfonsCoILKLgUZQO3_1n0PAK6H3HjrwANbbriMSIlhYvjXWX7_ELVbGc3DqsTLfn2Kj7rKedyiWCvGjuWtWGV-Gnekb8YDflG3kHee-sTo-W-LkGu_why9D2VC1tUeczp_-TSitWwDgjvvSeft9XjAc0HpNnG_XD6-kRDfr9yHcJB5aAirO581S1VL6-FuBDFjfNrx-4zVDdt-KZJfiD_beA" alt="">
+                <div>
+                    <p class="aside-hrs">120 Horas ~ 14 Modulos</p>
+                    <p class="aside-cal">4.3(420)</p>
+                </div>
+                <p class="aside-titlep">Fullstack Architect 2026</p>
+                <p class="aside-subtitle">Certificacion intensiva de 0 a Senior. Aprende arquitectura hexagonal y microservicios</p>
+                <div>
+                    <p class="aside-price" data-price="189.99">$189.99</p>
+                    <button class="aside-button">Añadir al Carrito</button>
+                </div>
+                
+            </div>
+        </div>
+
+    </aside>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <p class="footer-logo">Learn<span>Code</span></p>
+                <p class="footer-description">Plataforma de formación tecnológica y diseño digital.</p>
+            </div>
+
+            <nav class="footer-column" aria-label="Cursos">
+                <p class="footer-title">Cursos</p>
+                <a href="#">Diseño UI/UX</a>
+                <a href="#">Frontend Moderno</a>
+            </nav>
+
+            <nav class="footer-column" aria-label="Compañía">
+                <p class="footer-title">Compañía</p>
+                <a href="#">Términos de Servicio</a>
+                <a href="#">Privacidad</a>
+            </nav>
+
+            <nav class="footer-column" aria-label="Soporte">
+                <p class="footer-title">Soporte</p>
+                <a href="#">Soporte Técnico</a>
+                <a href="#">Contacto</a>
+            </nav>
+        </div>
+
+        <div class="footer-bottom">
+            <p>2026 LearnCode. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
