@@ -69,19 +69,14 @@ a:focus-visible {
 }
 
 .brand-caption { display: block; color: var(--muted); font-size: .875rem; font-weight: 400; }
-.header-note, .section-note { color: var(--muted); font-size: .875rem; }
 main { flex: 1; }
 .intro { padding-block: clamp(3rem, 7vw, 5.5rem) 3rem; }
-.eyebrow { display: flex; align-items: center; gap: .6rem; margin: 0 0 1.1rem; color: var(--accent); font-size: .875rem; font-weight: 650; }
-.eyebrow span { width: .5rem; height: .5rem; border-radius: 50%; background: currentColor; }
 h1 { margin: 0; font-size: clamp(2.4rem, 6vw, 4.5rem); line-height: 1.1; letter-spacing: -.045em; font-weight: 750; }
 h1 span { color: var(--accent); }
-.intro-description { margin: 1.5rem 0 0; color: var(--muted); font-size: 1.0625rem; }
 .practices { padding-bottom: 4rem; scroll-margin-top: 2rem; }
 .section-heading { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: .5rem 1rem; margin-bottom: 1.25rem; }
 h2 { margin: 0; font-size: 1.25rem; letter-spacing: -.025em; }
 
-/* Las tarjetas nuevas se acomodan automáticamente según el ancho disponible. */
 .practice-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 1.5rem; }
 .practice-card {
   display: flex;
@@ -128,8 +123,6 @@ h3 span { display: block; margin-top: .35rem; color: var(--muted); font-size: 1r
 @media (max-width: 600px) {
   .container { width: calc(100% - 2rem); }
   .site-header { padding-block: 1.25rem; }
-  .header-note { display: none; }
-  .desktop-break { display: none; }
   .practice-card { padding: 1.5rem; }
   .intro { padding-bottom: 2.5rem; }
 }
